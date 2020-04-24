@@ -109,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+virt
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +128,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# vscode
+.vscode
+
+# eb cli
+.ebignore
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
